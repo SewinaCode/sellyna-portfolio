@@ -1,0 +1,18 @@
+.button {
+    border: 3px solid #E76F51;
+    color: white;
+    font: 700 32px 'Nunito', sans-serif;
+    height: 84px;
+    margin: 0px 58px;
+    padding: 0px 32px;
+    width: 295px;
+}
+
+.button:hover {
+    transform: translateY(-30%);
+    transition: 0.2s ease-in-out;
+}
+
+.button p{
+    margin: 0px;
+}

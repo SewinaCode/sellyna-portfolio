@@ -1,0 +1,53 @@
+* {
+    background-color: #1E1E1E;
+}
+
+.home {
+    padding: 50px 82px 20px 72px;
+    /* height: 851px;   */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homeNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.greenText {
+    color: #2A9D8F;
+    font: bold 32px 'Nunito', sans-serif;
+}
+
+.title h3{
+    color: white;
+    padding-top: 10%;
+    font: 700 65px 'Nunito', sans-serif;
+    margin: 0px;
+}
+
+.title p {
+    color: white;
+    font: bold 32px 'Nunito', sans-serif;
+}
+
+.title h3 span {
+    color: #e76f51;
+    padding: 0px 15px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-contain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
