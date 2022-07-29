@@ -1,0 +1,32 @@
+.underlineMove {
+    animation: linemove 1.2s forwards ease-out;
+    animation-timing-function: linear;
+}
+
+@keyframes linemove {
+    0% {width: 0%;}
+
+    25% {width: 25%;}
+
+    50% {width: 50%;}
+
+    75% {width: 75%;}
+
+    100% {width: 100%;}
+}
+
+.greet-text {
+    animation: slowdrop 1s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes slowdrop {
+    from {
+        transform: translateY(-5%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

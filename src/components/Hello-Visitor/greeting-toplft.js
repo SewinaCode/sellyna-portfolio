@@ -1,4 +1,5 @@
 import React from "react";
+import "./greeting.css";
 
 export default function TopLeftGreet({
   backgroundColor,
@@ -6,16 +7,17 @@ export default function TopLeftGreet({
   font,
   text,
   textAlign,
-  // marginLeft,
+  letterSpacing,
 }) {
   return (
     <div
+      className="greet-text"
       style={{
         backgroundColor: "none",
         color: "white",
         font: "bold 55px 'Nunito', sans-serif",
         textAlign: "center",
-        // marginLeft: "50px",
+        letterSpacing: "0.075em",
       }}
     >
       {text}

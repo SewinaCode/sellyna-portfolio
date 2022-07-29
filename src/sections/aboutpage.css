@@ -1,0 +1,28 @@
+#About {
+    padding: 88px 0px 75px 20px;
+     
+}
+
+#About h3 {
+    font: 700 45px 'Nunito', sans-serif;
+    color: white;
+    letter-spacing: 0.075em;
+    /* line-height: 87px; */
+}
+
+#About h3 span {
+    color: #2A9D8F;
+}
+
+#About p {
+    font: 700 28px 'Nunito', sans-serif;
+    color: white;
+    letter-spacing: 0.075em;
+    line-height: 44px;
+}
+
+.about-text {
+    width: 1200px; 
+    
+}
+

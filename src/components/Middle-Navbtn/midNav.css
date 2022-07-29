@@ -6,9 +6,11 @@
     margin: 0px 58px;
     padding: 0px 32px;
     width: 295px;
+    transform: translateY(0%);
+    transition: 0.2s ease-in-out;
 }
 
-.button:hover {
+.btnHover {
     transform: translateY(-30%);
     transition: 0.2s ease-in-out;
 }
